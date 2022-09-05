@@ -1,0 +1,318 @@
+baseURL: "https://saenty.xyz"
+languageCode: "en-us"
+title: "saenty"
+theme: hugo-profile
+
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  # main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "saenty"
+  description: Hello there!
+  # staticPath: ""  # The path to serve the static files from
+  # favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Vangerwua Johnpaul."
+    subtitle: "I'm a Backend Developer and a Cyber Security Engineer! "
+    content: "A passionate web application developer. I make use modern web technologies and frameworks to create web applications and services that are efficient and secure"
+    image: /images/hero.jpg
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://1drv.ms/b/s!AipEcqyJaFOyhuklLGVMS64XM5boVg?e=t6oQnS"
+      download: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/saent-x/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/vanjp/
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      Software Programmer and Cybersecurity engineer with over 4 years of experience, striving to make the world a more unified, secure, and connected place. Knowledgeable in Backend Development, DevOps, Web and application security, Frontend development, TTD (test driven development}, and debugging processes,
+
+      although I am more inclined to backend development than frontend.
+    skills:
+      enable: true
+      title: "Here are a few technologies and frameworks I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "NodeJS"
+        - "Express"
+        - "Golang"
+        - "Digital Ocean"
+        - "GraphQL"
+        - "CI/CD"
+        - "Docker"
+        - "Kubernetes"
+        - "Git"
+        - "MongoDB"
+        - "Postgres"
+        - "RabbitMQ"
+        - "Metaspoilt"
+        - "Burp suite"
+        - "NMap"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Software Engineer"
+        company: "Vatebra Technologies"
+        companyUrl: "https://vatebra.com"
+        date: "Aug 2018 - Sep 2019"
+        content: |
+          - Worked in the capacity of a Software Engineer Intern, developing features for enterprise software applications written in C#, using ASP.NET Core Framework.
+          - Built Microservices for managing database CRUD REST APIs
+          - Learnt new technologies such as NodeJS, ReactJS and Asp.NET Core also learned Industry best practices
+          - Worked with a designated development team ro develop a support ticketing system.
+          - Attended various Technological Events, Talks, Webinars organized by the company
+
+      - job: "Software Engineer"
+        company: "Nigerbell Hearing"
+        companyUrl: "https://www.nigerbellhearing.com/"
+        date: "Jan 2019 - Dec 2020"
+        content: |
+          - Worked with a team of developers to build an E-commerce system using technologies such as, ReactJS, NodeJS tailored to the company.
+          - Managed cloud hosting platforms to deploy, monitor and update software applications
+          - Developed a patient management system to monitor and record patient's data securely in cloud.
+          - Built a securely Authentication and Authorization System using a nodeJS backend service to control access to patients data
+
+      - job: "Software Engineer"
+        company: "KPMG"
+        companyUrl: "https://kpmg.com"
+        date: "Feb 2020 - Nov 2020"
+        info:
+          enable: false
+        content: |
+          - Worked at the ITS (Information Technology Services} Department where I supervised the internal database to manage software complaints.
+          - Updated old Internal Web application system's written in ASP.NET and JavaScript
+          - Created software solutions to automate business processes by implementing code algorithms to run these processes
+          - Modified HTML,JavaScript,JSX and CSS files to optimized webpage performance for faster loading and browsing experience
+          - Enhanced features of existing back-end applications to fix bugs and optimize the overall performance and efficiency
+
+      - job: "Senior Software Engineer"
+        company: "Analytics Intelligence"
+        companyUrl: "https://analyticsintelligence.com"
+        date: "June 2017 - Nov 2019"
+        featuredLink:
+          enable: true
+          url: "https://analyticsintelligence.com/powerdbyai"
+        content: |
+          - Developed and maintained backend services written in nodejs and golang.
+          - Worked on integrating data analytics systems witl1software architecture
+          - Developed microservices for different architectural component such as database, billing etc. containerized using docker and orchestrated using a kubernetes cluster hosted on Digital Ocean and AWS.
+          - Developed Mobile Applications using React Native front-end framework with a team of mobile developers
+          - Efficiently deployed and integrated software engineered by a team and updated integration/deployment scripts to improve continuous integration practices.
+          - Automated CI/CD Pipelines, using github CI/CD
+          - Engineered modern cloud infrastructure to securely store client data with full consideration for modern info-sec.
+
+      - job: "Backend Engineer"
+        company: "Scitylana"
+        companyUrl: "https://scitylanang.com/"
+        date: "May 2021 - Aug 2022"
+        content: |
+          - Created secure authentication system, written in golang
+          - Interpreted figma wireframes designs into ReactJS Code
+          - Wrote algorithms to efficiently poll forecast data for games
+          - Worked with CMS platforms like Strapi and Stored user data in a MongoDB Database
+          - Utilized Heroku for cloud services and deployment which were automated using Cl/CD pipelines
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    # index: true
+    items:
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Augustine University"
+          url: "https://augustineuniversity.edu.ng"
+        date: "2015 - 2019"
+        content: "Operating Systems and Hardware, Mathematics for Computing, Databases, Software Engineering Principles, Programming, Computer Systems and Networks, Further Programming and Algorithms, Statistic, Artificial Intelligence and Machine Learning, Cryptography and Security"
+      - title: "Masters in Cyber Security"
+        school:
+          name: "Coventry University"
+          url: "https://coventry.ac.uk"
+        date: "2021 - 2022"
+        content: "Ethical hacking, Network security, Secure design and development, Cryptography, Intrusion detection and response, Digital data acquisition recovery and analysis, Security of emerging connected systems, Digital security risk and audit management"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Hugo Profile
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Converter
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        # badges:
+        #   - "Django"
+        #   - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/saent-x/
+
+  #Contact
+  contact:
+    enable: true
+    #title: "Custom name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: vangerwua@outlook.com
+    btnName: Mail me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/saent-x
+      linkedin: https://www.linkedin.com/in/vanjp/
