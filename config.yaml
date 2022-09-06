@@ -102,7 +102,7 @@ params:
     intro: "Hi, my name is"
     title: "Vangerwua Johnpaul."
     subtitle: "I'm a Backend Developer and a Cyber Security Engineer! "
-    content: "A passionate web application developer. I make use modern web technologies and frameworks to create web applications and services that are efficient and secure"
+    content: "A passionate web application developer. I make use of modern web technologies and frameworks to create web applications and services that are efficient and secure"
     image: /images/hero.jpg
     button:
       enable: true
