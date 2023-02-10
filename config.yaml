@@ -122,9 +122,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      Software Programmer and Cybersecurity engineer with over 4 years of experience, striving to make the world a more unified, secure, and connected place. Knowledgeable in Backend Development, DevOps, Web and application security, Frontend development, TTD (test driven development}, and debugging processes,
-
-      although I am more inclined to backend development than frontend.
+      Software Programmer and Cybersecurity engineer with over 4 years of experience, striving to make the world a more unified, secure, and connected place. Knowledgeable in Backend Development, DevOps, Web and mobile application security, Frontend development, TTD (test driven development}, and debugging processes.
     skills:
       enable: true
       title: "Here are a few technologies and frameworks I've been working with recently:"
@@ -134,9 +132,10 @@ params:
         - "JavaScript"
         - "React"
         - "NodeJS"
-        - "Express"
-        - "Golang"
-        - "Digital Ocean"
+        - "Asp .NET Core"
+        - ".Net"
+        - "Entity Framework"
+        - "AWS"
         - "GraphQL"
         - "CI/CD"
         - "Docker"
@@ -154,6 +153,58 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Cybersecurity Engineer"
+        company: "Tata Technologies"
+        companyUrl: "https://www.tatatechnologies.com/en"
+        date: "Oct 2022 - till date"
+        content: |
+          - Research, analyze, and provide reports on SDS documentation for vehicle ECUs
+          - Implementation of secure on-board Communication FVM in python
+          - Analysis of internal risk and security data and controls to identify security weaknesses in vehicle architecture.
+          - Discover, research and define individual threat groups and vulnerabilities for automotive.
+          - Conducted analysis to provide best vehicle intelligence context for clients.
+          - Implementation of TARA analysis for Automotive ECU
+      
+      - job: "Backend Engineer"
+        company: "Scitylana"
+        companyUrl: "https://scitylanang.com/"
+        date: "May 2021 - Aug 2022"
+        content: |
+          - Created secure authentication system, written in golang
+          - Interpreted figma wireframes designs into ReactJS Code
+          - Wrote algorithms to efficiently poll forecast data for games
+          - Worked with CMS platforms like Strapi and Stored user data in a MongoDB Database
+          - Utilized Heroku for cloud services and deployment which were automated using Cl/CD pipelines
+      
+      - job: "Senior Software Engineer"
+        company: "Analytics Intelligence"
+        companyUrl: "https://analyticsintelligence.com"
+        date: "June 2017 - Nov 2019"
+        featuredLink:
+          enable: true
+          url: "https://analyticsintelligence.com/powerdbyai"
+        content: |
+          - Developed and maintained backend services written in nodejs and golang.
+          - Worked on integrating data analytics systems witl1software architecture
+          - Developed microservices for different architectural component such as database, billing etc. containerized using docker and orchestrated using a kubernetes cluster hosted on Digital Ocean and AWS.
+          - Developed Mobile Applications using React Native front-end framework with a team of mobile developers
+          - Efficiently deployed and integrated software engineered by a team and updated integration/deployment scripts to improve continuous integration practices.
+          - Automated CI/CD Pipelines, using github CI/CD
+          - Engineered modern cloud infrastructure to securely store client data with full consideration for modern info-sec.
+      
+      - job: "Software Engineer"
+        company: "KPMG"
+        companyUrl: "https://kpmg.com"
+        date: "Feb 2020 - Nov 2020"
+        info:
+          enable: false
+        content: |
+          - Worked at the ITS (Information Technology Services} Department where I supervised the internal database to manage software complaints.
+          - Updated old Internal Web application system's written in ASP.NET and JavaScript
+          - Created software solutions to automate business processes by implementing code algorithms to run these processes
+          - Modified HTML,JavaScript,JSX and CSS files to optimized webpage performance for faster loading and browsing experience
+          - Enhanced features of existing back-end applications to fix bugs and optimize the overall performance and efficiency
+      
       - job: "Software Engineer"
         company: "Vatebra Technologies"
         companyUrl: "https://vatebra.com"
@@ -174,46 +225,6 @@ params:
           - Managed cloud hosting platforms to deploy, monitor and update software applications
           - Developed a patient management system to monitor and record patient's data securely in cloud.
           - Built a securely Authentication and Authorization System using a nodeJS backend service to control access to patients data
-
-      - job: "Software Engineer"
-        company: "KPMG"
-        companyUrl: "https://kpmg.com"
-        date: "Feb 2020 - Nov 2020"
-        info:
-          enable: false
-        content: |
-          - Worked at the ITS (Information Technology Services} Department where I supervised the internal database to manage software complaints.
-          - Updated old Internal Web application system's written in ASP.NET and JavaScript
-          - Created software solutions to automate business processes by implementing code algorithms to run these processes
-          - Modified HTML,JavaScript,JSX and CSS files to optimized webpage performance for faster loading and browsing experience
-          - Enhanced features of existing back-end applications to fix bugs and optimize the overall performance and efficiency
-
-      - job: "Senior Software Engineer"
-        company: "Analytics Intelligence"
-        companyUrl: "https://analyticsintelligence.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://analyticsintelligence.com/powerdbyai"
-        content: |
-          - Developed and maintained backend services written in nodejs and golang.
-          - Worked on integrating data analytics systems witl1software architecture
-          - Developed microservices for different architectural component such as database, billing etc. containerized using docker and orchestrated using a kubernetes cluster hosted on Digital Ocean and AWS.
-          - Developed Mobile Applications using React Native front-end framework with a team of mobile developers
-          - Efficiently deployed and integrated software engineered by a team and updated integration/deployment scripts to improve continuous integration practices.
-          - Automated CI/CD Pipelines, using github CI/CD
-          - Engineered modern cloud infrastructure to securely store client data with full consideration for modern info-sec.
-
-      - job: "Backend Engineer"
-        company: "Scitylana"
-        companyUrl: "https://scitylanang.com/"
-        date: "May 2021 - Aug 2022"
-        content: |
-          - Created secure authentication system, written in golang
-          - Interpreted figma wireframes designs into ReactJS Code
-          - Wrote algorithms to efficiently poll forecast data for games
-          - Worked with CMS platforms like Strapi and Stored user data in a MongoDB Database
-          - Utilized Heroku for cloud services and deployment which were automated using Cl/CD pipelines
 
   # Education
   education:
